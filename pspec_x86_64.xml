@@ -2,8 +2,8 @@
     <Source>
         <Name>clicompanion</Name>
         <Packager>
-            <Name>Justin Zobel</Name>
-            <Email>justin@solus-project.com</Email>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
         </Packager>
         <License>GPL-3.0</License>
         <Summary xml:lang="en">CLI Companion is a Terminal that lets you store commands and create a &apos;command dictionary.&apos;</Summary>
@@ -16,6 +16,7 @@
         <Summary xml:lang="en">CLI Companion is a Terminal that lets you store commands and create a &apos;command dictionary.&apos;</Summary>
         <Description xml:lang="en">CLI Companion is a tool to store and run Terminal commands from a GUI. People unfamiliar with the Terminal will find CLI Companion a useful way to become acquainted with the Terminal and unlock its potential. Experienced users can use CLI Companion to store their extensive list of commands in a searchable list.
 </Description>
+        <PartOf>desktop</PartOf>
         <RuntimeDependencies>
             <Dependency>python-gtk2</Dependency>
             <Dependency>vte2</Dependency>
@@ -23,19 +24,19 @@
         <Files>
             <Path fileType="library">/usr/lib/python2.7</Path>
             <Path fileType="executable">/usr/bin</Path>
-            <Path fileType="data">/usr/share/clicompanion</Path>
-            <Path fileType="data">/usr/share/applications</Path>
             <Path fileType="data">/usr/share/pixmaps</Path>
+            <Path fileType="data">/usr/share/applications</Path>
+            <Path fileType="data">/usr/share/clicompanion</Path>
             <Path fileType="config">/etc/clicompanion.d/clicompanion2.config</Path>
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2015-08-23</Date>
+        <Update release="3">
+            <Date>2016-03-06</Date>
             <Version>1.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Justin Zobel</Name>
-            <Email>justin@solus-project.com</Email>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
         </Update>
     </History>
 </PISI>
