@@ -1,6 +1,6 @@
 name       : clicompanion
 version    : 1.1
-release    : 3
+release    : 4
 source     :
     - https://solus-project.com/sources/clicompanion-1.1.tar.xz : 6f708717f7d5de0ef7439564fdd143db7a35ac6825e8a95e4bd78545c2103448
 license    : GPL-3.0
